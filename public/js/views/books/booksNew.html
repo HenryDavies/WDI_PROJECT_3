@@ -4,7 +4,9 @@
   <div class="agitprop">
     <img src="https://s-media-cache-ak0.pinimg.com/736x/bb/96/8d/bb968ddb54a0fa7caca7af4a5edae727.jpg" alt="">
   </div>
-<p>Our calling is to liberate. Set the books you love free by leaving them anywhere: parks, the Tube, the Tate, the Thames. Abandon them to live with abandon, free of the fascist influence of the bookshelf. And be sure to begin your book’s story with a telling comment.
+<p>Our calling is to liberate. Set the books you love free by leaving them anywhere: parks, the Tube, the Tate, the Thames. Abandon them to live with abandon, free of the fascist influence of the bookshelf.</p>
+<p>
+  First search for a book in the search feature below and register it. When you do register it, we will provide you with a <strong>unique code</strong> for the book which you must then write on it along with a link to our movement, <strong>freethebooks.com</strong>. Then release it into the wild for someone else to find. They can use the code to identify the book as yours. And be sure to begin your book’s story with a telling comment.
 </p>
 </div>
 
@@ -18,7 +20,7 @@
     ng-model="books.asyncSelected"
     uib-typeahead="book.title + ' (' + book.author + ')' for book in books.searchGoogle($viewValue)"
     typeahead-wait-ms="500"
-    typeahead-on-select="books.chooseBook($item, $model, $label)"
+    typeahead-on-select="books.chooseBook($item)"
     placeholder="Search for a book"
     autocomplete="off">
     <input type="submit" value="Select" ng-show="books.bookChosen">
