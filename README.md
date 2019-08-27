@@ -6,7 +6,7 @@
 
 FREE THE BOOKS is a website that enables a novel form of physical book sharing, presented as a mock activist movement to “free books from the tyranny of bookshelves”. Book freers write the website URL and a book ID and then leave the book in a public place (“in the wild”) for anyone to find. Book finders then can read the book (or not) and leave a message on the website before again leaving it in a public space. The website was created as a team project during my 12-week Web Development Immersive course at General Assembly in London. It was built using a MEAN stack.
 
-See it here: [Free The Books](https://free-the-books.herokuapp.com/)
+Update August 2019: link to (unmaintained) project removed
 
 ## How it works
 
